@@ -6,7 +6,7 @@ env:
   REGISTRY: ghcr.io
   DOCKER_IMAGE: ${{ github.repository }}
   # github.repository변수는 owner/repository로 구성 ex)goodonion/nest_test
-  DOCKER_CONTAINER: my_api_server
+  DOCKER_CONTAINER: rlagudals95/nest-starter
 
 #이벤트
 # develop 브랜치에 한하여 push가 일어날 경우
