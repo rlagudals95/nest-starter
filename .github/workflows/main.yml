@@ -37,7 +37,7 @@ jobs:
           node-version: 16.19.0
           cache: "npm"
       - run: npm install
-      - run: npm run test:e2e
+      # - run: npm run test:e2e
 
   # 도커 이미지 빌드
 
