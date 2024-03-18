@@ -15,8 +15,8 @@ RUN npm install
 # NEST.JS 빌드
 RUN npm run build
 
-# PORT(3000) 개방
-EXPOSE 3000
+# PORT(8080) 개방
+EXPOSE 8080
 
 # 서버 실행
 ENTRYPOINT npm run start:prod
